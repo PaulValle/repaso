@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="14"
+        android:hint="Ingrese el nombre"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHint="#FF008577"
+        android:textColorLink="#000"
+        android:paddingVertical="25dp"/>
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="14"
+        android:hint="Ingrese el correo"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHint="#FF008577"
+        android:textColorLink="#000"
+        android:paddingVertical="25dp"/>
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Agregar Datos"
+        android:padding="5dp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/btnSonido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Sonido"
+        android:padding="5dp"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>
